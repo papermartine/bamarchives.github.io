@@ -3,10 +3,16 @@ body {
 }
 
 ul {
-
 	list-style-type: none;
 	margin: 0;
-	padding: 0;
+	padding: 15px;
+}
+
+#email-list {
+	list-style: circle;
+	padding-left: 25px;
+	color: gray;
+	padding-top: 0px;
 }
 
 li a {
@@ -19,8 +25,12 @@ li a {
 	padding: 5px;
 }
 
+.current-link {
+	font-weight: bold;
+}
+
 li a:hover {
-	color: #f4bad5;
+	color: #f9c536;
 	text-decoration: underline;
 }
 
@@ -32,7 +42,6 @@ nav, #nav {
 	margin-right: 25px;
 	margin-top: 15px;
 }
-
 
 h1 {
 	font-size: 40pt;
@@ -61,6 +70,7 @@ h3 {
 
 h4 {
 	padding-bottom: 0px;
+	font-size: 14pt;
 }
 
 h5 {
@@ -118,7 +128,6 @@ footer {
 	font-family: myFirstFont;
 	margin-right: 45px;
 	width: 400px;
-
 }
 
 #table-info {
