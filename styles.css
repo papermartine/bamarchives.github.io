@@ -151,6 +151,7 @@ p {
 	font-size: 12pt;
 	background: white;
 	color: grey;
+	line-height: 160%;
 }
 
 .archivesnotes_content, .citation {
@@ -173,6 +174,10 @@ p {
 	padding: 10px;
 	font-weight: normal;
 	font-size: 14pt;
+}
+
+.rules {
+	width: 600px;
 }
 
 
