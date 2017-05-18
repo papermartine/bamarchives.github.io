@@ -37,7 +37,6 @@ li a:hover {
 
 nav, #nav {
 	border: 5px solid #f9c536;
-	padding: 10px;
 	background: #ffffff;
 	float: right;
 	margin-right: 25px;
@@ -100,6 +99,8 @@ header {
 	float: left;
 	margin-left: 25px;
 	text-align: left;
+	padding-top: 25px;
+	padding-bottom: 85px;
 }
 
 footer {
