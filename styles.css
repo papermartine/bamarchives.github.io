@@ -149,8 +149,7 @@ footer {
 }
 
 p {
-	font-size: 12pt;
-	background: white;
+	font-size: 13pt;
 	color: grey;
 	line-height: 160%;
 }
@@ -170,6 +169,14 @@ p {
     border-radius: 15px;
 }
 
+#records-history {
+	background: #f2f2f2;
+	padding: 10px;
+	color: grey;
+	border: none;
+    border-radius: 15px;
+}
+
 .aside {
 	background-color: #fff7f9;
 	padding: 10px;
@@ -180,6 +187,9 @@ p {
 	width: 600px;
 }
 
+.title {
+	height: 10px;
+}
 
 .content-image {
 	padding-top: 10px;
@@ -221,12 +231,7 @@ img {
 th {
 	border-right: 3px solid #eaeaea;
 	border-bottom: 3px solid #eaeaea;
-	padding: 5px;
-}
-
-table {
-	border-spacing: 15px;
-	margin-left: 0px;
+	padding: 10px;
 }
 
 .retention-depts {
@@ -234,7 +239,6 @@ table {
 	font-weight: normal;
 	font-size: 16pt;
 	margin-bottom: 0px;
-	padding-left: 15px;
 }
 
 .timeline_dates {
