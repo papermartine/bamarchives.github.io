@@ -1,12 +1,20 @@
 body {
 	background: #ffffff;
+	max-width: 1600px;
+	margin: 0 auto;
 }
 
 ul {
-
 	list-style-type: none;
 	margin: 0;
-	padding: 0;
+	padding: 15px;
+}
+
+#email-list {
+	list-style: circle;
+	padding-left: 25px;
+	color: gray;
+	padding-top: 0px;
 }
 
 li a {
@@ -19,20 +27,21 @@ li a {
 	padding: 5px;
 }
 
+.current-link {
+	font-weight: bold;
+}
+
 li a:hover {
-	color: #f4bad5;
-	text-decoration: underline;
+	color: #f9c536;
 }
 
 nav, #nav {
 	border: 5px solid #f9c536;
-	padding: 10px;
 	background: #ffffff;
-	float: left;
-	margin-left: 25px;
+	float: right;
+	margin-right: 25px;
 	margin-top: 15px;
 }
-
 
 h1 {
 	font-size: 40pt;
@@ -40,6 +49,7 @@ h1 {
 	height: 40px;
 	font-family: myFirstFont;
 	font-weight: bold;
+	white-space: nowrap;
 }
 
 h2 {
@@ -60,6 +70,7 @@ h3 {
 
 h4 {
 	padding-bottom: 0px;
+	font-size: 14pt;
 }
 
 h5 {
@@ -73,34 +84,57 @@ h5 {
 	padding: 10px;
 }
 
-
-header, article, footer {
+article, footer {
 	font-family: myFirstFont;
 	font-weight: bold;
 	float: left;
 	margin-right: 150px;
 	margin-left: 25px;
-	padding-right: 150px;
 	text-align: left;
-	min-width: 300px;
-	width: 70%;
+}
+
+header {
+	font-family: myFirstFont;
+	font-weight: bold;
+	float: left;
+	margin-left: 25px;
+	text-align: left;
+	padding-top: 25px;
+	padding-bottom: 85px;
 }
 
 footer {
-	border: 5px solid #f9c536;
-	padding: 10px;
-	margin-bottom: 15px;}
+	margin-bottom: 15px;
+	margin-top: 35px;
+}
 
 .container{
     display: flex;
     float: left;
     width: 100%;
     margin-right: 25px;
+    max-width: 2200px;
 }
 
 .fixed {
     font-family: myFirstFont;
     padding-bottom: 25px;
+}
+
+#fixed-contents {
+    font-family: myFirstFont;
+    padding-bottom: 25px;
+    width: 400px;
+}
+
+#content-info {
+	font-family: myFirstFont;
+	margin-right: 45px;
+	width: 400px;
+}
+
+#table-info {
+	text-align: right;
 }
 
 .flex-item {
@@ -115,36 +149,47 @@ footer {
 }
 
 p {
-	font-size: 12pt;
-	background: white;
+	font-size: 13pt;
 	color: grey;
+	line-height: 160%;
 }
 
 .archivesnotes_content, .citation {
 	float: right;
 	margin-right: 25px;
-	width: 275px;
+	width: 260px;
 	font-family: myFirstFont;
-	text-transform: uppercase; 
 	font-size: 10pt;
 	background: #f2f2f2;
 	padding: 10px;
-	margin-bottom: 60px;
+	margin-bottom: 160px;
 	color: grey;
 	border: none;
 	font-weight: normal;
-	font-size: 12pt;
-	text-align: justify;
-    text-justify: inter-word;
+    border-radius: 15px;
+}
+
+#records-history {
+	background: #f2f2f2;
+	padding: 10px;
+	color: grey;
+	border: none;
+    border-radius: 15px;
 }
 
 .aside {
 	background-color: #fff7f9;
 	padding: 10px;
-	font-weight: normal;
 	font-size: 14pt;
 }
 
+.rules {
+	width: 600px;
+}
+
+.title {
+	height: 10px;
+}
 
 .content-image {
 	padding-top: 10px;
@@ -170,7 +215,7 @@ p {
 
 
 img {
-	width: 275px;
+	width: 260px;
 }
 
 .trio img{
@@ -186,12 +231,7 @@ img {
 th {
 	border-right: 3px solid #eaeaea;
 	border-bottom: 3px solid #eaeaea;
-	padding: 5px;
-}
-
-table {
-	border-spacing: 15px;
-	margin-left: 0px;
+	padding: 10px;
 }
 
 .retention-depts {
@@ -199,7 +239,6 @@ table {
 	font-weight: normal;
 	font-size: 16pt;
 	margin-bottom: 0px;
-	padding-left: 15px;
 }
 
 .timeline_dates {
@@ -208,7 +247,3 @@ table {
 	font-size: 16pt;
 	margin-bottom: 0px;
 }
-
-
-
-
